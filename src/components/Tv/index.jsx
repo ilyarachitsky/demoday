@@ -51,7 +51,7 @@ function Tv() {
           <br />
           Your score is: {score} from 10!
           <br />
-          <Link to="./"><button className="bg-white p-5 mt-10 text-base text-black font-semibold">Play again!</button></Link>
+          <Link to="./"><button className="bg-white p-5 mt-10 text-base text-black font-semibold rounded-md">Play again!</button></Link>
           
         </h1>
       ) : (

@@ -8,7 +8,7 @@ const Questions = ({
 }) => {
   return (
     <div className="flex flex-col">
-      <div className="bg-white text-grey-500 font-bold p-10 shadow-md">
+      <div className="bg-white text-grey-500 font-bold p-10 shadow-md rounded-md">
         <h2
           className="text-2xl"
           dangerouslySetInnerHTML={{ __html: question }}
@@ -25,7 +25,7 @@ const Questions = ({
           return (
             <button
               
-              className={`${bgColor} ${textColor} p-4 font-semibold shadow`}
+              className={`${bgColor} ${textColor} p-4 font-semibold shadow rounded-md`}
               onClick={() => handleAnswer(answer)}
               dangerouslySetInnerHTML={{ __html: answer }}
             />
@@ -35,7 +35,7 @@ const Questions = ({
       {showAnswers && (
         <button
           onClick={handleNextQuestion}
-          className={`ml-auto p-4 bg-pink-800 text-white font-semibold shadow mt-6 rounded-md`}
+          className={`ml-auto p-4 bg-purple-800 text-white font-semibold shadow mt-6 rounded-md`}
         >
           Next Question
         </button>
