@@ -1,0 +1,23 @@
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper {
+    padding: 30px;
+}
+
+.button-1 {
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right bottom, #8502dd, #a844e2);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    height: 40px;
+}
