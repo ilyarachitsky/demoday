@@ -16,7 +16,7 @@
     min-width: 100px;
     text-align: center;
     cursor: pointer;
-    background: linear-gradient(to right bottom, #8502dd, #a844e2);
+    background: linear-gradient(to right bottom, hsl(275, 81%, 63%), #0c00f5);
     color: white;
     border-radius: 5px;
     border: 0px;

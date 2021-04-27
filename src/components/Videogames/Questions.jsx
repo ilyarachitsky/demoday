@@ -18,8 +18,8 @@ const Questions = ({
         {answers.map((answer) => {
           const bgColor = showAnswers
             ? answer === correct_answer
-              ? "bg-green-500"
-              : "bg-red-500"
+              ? "bg-green-800"
+              : "bg-red-800"
             : "bg-white";
           const textColor = showAnswers ? "text-white" : "text-grey-500";
           return (
@@ -35,7 +35,7 @@ const Questions = ({
       {showAnswers && (
         <button
           onClick={handleNextQuestion}
-          className={`ml-auto p-4 bg-purple-500 text-white font-semibold shadow mt-6 rounded-md`}
+          className={`ml-auto p-4 bg-purple-800 text-white font-semibold shadow mt-6 rounded-md`}
         >
           Next Question
         </button>

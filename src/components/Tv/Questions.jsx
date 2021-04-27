@@ -18,7 +18,7 @@ const Questions = ({
         {answers.map((answer) => {
           const bgColor = showAnswers
             ? answer === correct_answer
-              ? "bg-green-500"
+              ? "bg-green-800"
               : "bg-red-800"
             : "bg-white";
           const textColor = showAnswers ? "text-white" : "text-grey-500";

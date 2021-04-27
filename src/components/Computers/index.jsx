@@ -3,7 +3,7 @@ import Questions from "./Questions";
 import { Link } from "react-router-dom";
 
 const API_URL =
-  "https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple";
+  "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple";
 
 function Tv() {
   const [questions, setQuestions] = useState([]);

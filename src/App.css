@@ -8,9 +8,13 @@
   flex-direction: column;
   background-color: #E67470;
   border-radius: 5px;
-  
-  
 }
+
+.navbar .nav-wrapper .munotes {
+  display: none;
+}
+
+
 
 
 @media (min-width: 800px) {
@@ -18,5 +22,18 @@
     padding: 0 100px;
     margin-top: 5vh;
     min-height: 90vh;
+    background-color:#E67470;
+    
   }
+
+  .navbar .nav-wrapper .munotes {
+    display: inline;
+  }
+
+  .home-container .flex .grid {
+    columns: 3;
+  }
+
 }
+
+
