@@ -4,7 +4,7 @@ import audio from "../../Media/audio1.mp3";
 import "./style.css";
 
 const audioClips = [
-    {sound: audio, label: "Play Sound"}
+    {sound: audio, label: "Play with sound"}
 ]
 
 export default class MusicPlayer extends Component {

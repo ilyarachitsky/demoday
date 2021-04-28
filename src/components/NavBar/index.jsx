@@ -38,7 +38,7 @@ const NavBar = () => {
             Stop &#9611;
           </button> */}
           <PlayButton className="button-1"/>
-          <h3 className="text-white">Refresh to stop </h3>
+          <h3 className="text-white text-xs mt-2">Think twice! No pause! </h3>
         </div>
       </div>
     </nav>
