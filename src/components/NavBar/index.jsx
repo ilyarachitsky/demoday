@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import "./style.css";
 import "./playPause.js";
+import PlayButton from "../MusicPlayer/MusicPlayer"
 
 const NavBar = () => {
   return (
@@ -37,6 +38,7 @@ const NavBar = () => {
           <button className="button-1" onClick="stop()">
             Stop &#9611;
           </button>
+          <PlayButton />
         </div>
       </div>
     </nav>

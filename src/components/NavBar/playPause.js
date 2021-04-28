@@ -15,4 +15,6 @@ function playPause() {
     }
 }
 
+// No need to make stop button working, at least play pause is enough
+
 export default playPause;
