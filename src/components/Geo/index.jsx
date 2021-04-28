@@ -49,7 +49,10 @@ function Tv() {
           Game ended. 
           <br />
           <br />
-          Your score is: {score} from 10!
+          Your score is:
+          <br />
+          <br /> 
+          {score} / 10!
           <br />
           <Link to="./"><button className="bg-white p-5 mt-10 text-base text-black font-semibold rounded-md">Play again!</button></Link>
         </h1>

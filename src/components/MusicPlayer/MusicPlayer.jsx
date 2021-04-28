@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {Howl, Howler} from "howler";
-import audio from "../../Media/audio.mp3"
+import audio from "../../Media/audio1.mp3";
+import "./style.css";
 
 const audioClips = [
-    {sound: audio, label: 'audio'}
+    {sound: audio, label: "Play Sound"}
 ]
 
 export default class MusicPlayer extends Component {
@@ -27,7 +28,7 @@ export default class MusicPlayer extends Component {
         Howler.volume(1.0)
         return (
             <div>
-                <button>
+                <button className="button-1">
                     {this.PlayButton()}  
                 </button>
             </div>

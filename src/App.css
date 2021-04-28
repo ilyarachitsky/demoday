@@ -7,11 +7,16 @@
   border-radius: 0px;
   flex-direction: column;
   background-color: #E67470;
+  background: linear-gradient(to right bottom, #a04845, #E67470);
   border-radius: 5px;
 }
 
 .navbar .nav-wrapper .munotes {
   display: none;
+}
+
+.home-container .flex .grids {
+  grid-column: auto;
 }
 
 

@@ -7,6 +7,7 @@ const Home = () => {
         <h1 className="text-center font-bold text-2xl text-white">
           Select category:
         </h1>
+      
         <div className="grid grid-cols-3 gap-8 mt-6">
           <Link to="/tv">
             <button className="bg-white text-grey-500 font-bold p-10 shadow-md rounded-md container">
@@ -61,6 +62,7 @@ const Home = () => {
               Geography
             </button>
           </Link>
+          
         </div>
       </div>
     </div>

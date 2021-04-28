@@ -8,6 +8,7 @@ const Questions = ({
 }) => {
   return (
     <div className="flex flex-col">
+      <h1 className="text-white p-5 font-bold text-lg">Music</h1>
       <div className="bg-white text-grey-500 font-bold p-10 shadow-md rounded-md">
         <h2
           className="text-2xl"

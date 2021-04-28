@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import "./style.css";
-import "./playPause.js";
 import PlayButton from "../MusicPlayer/MusicPlayer"
 
 const NavBar = () => {
@@ -28,17 +27,18 @@ const NavBar = () => {
         &nbsp;
 
         <div>
-          <audio id="audio">
+          {/* <audio id="audio">
             <source src="media/audio.mp3" type="audio/mpeg" />
           </audio>
-          <button className="button-1" id="playPauseBTN" onClick="play()">
+          <button className="button-1" id="playPauseBTN" onClick={PlayButton}>
             Play &#9658;
           </button>
           &nbsp; &nbsp;
           <button className="button-1" onClick="stop()">
             Stop &#9611;
-          </button>
-          <PlayButton />
+          </button> */}
+          <PlayButton className="button-1"/>
+          <h3 className="text-white">Refresh to stop </h3>
         </div>
       </div>
     </nav>
@@ -46,3 +46,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
